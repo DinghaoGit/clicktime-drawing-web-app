@@ -2,15 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-            integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+    <title>An App of Many Colors</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+            integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="
             crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://clicktime.herokuapp.com/socket.io/socket.io.js"></script>
 </head>
-<body>
 
+<body>
+    <div class="jumbotron text-center">
+        <h1>An App of Many Colors</h1>
+        <p>by Dinghao Li</p>
+        <p>An awesome multi-user drawing web app which is made for ClickTime Intern Challenge.</p>
+        <canvas id="myCanvas" width="600px" height="400px" style="border:3px solid lightseagreen"></canvas>
+    </div>
 </body>
 </html>
+<script type="text/javascript" src="./client.js"></script>
+<script type="text/javascript" src="./drawing.js"></script>
 
 
